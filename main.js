@@ -12,7 +12,7 @@ while(leerNumero !='0' && leerNumero!=null ){
         numero = parseInt(leerNumero);
         console.log(numero)
         total = total + numero;
-        leerNumero = prompt('Siga sumando o aprete = para el resultado');
+        leerNumero = prompt('Siga sumando o aprete 0 para el resultado');
     }
 }
 if(leerNumero==undefined){
